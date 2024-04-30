@@ -4,8 +4,8 @@
 /* Big O of arrays  
   insertion - it depends 
   removal - it depends 
-  searching - O(n)
-  access - O(1) //superfast wow 
+  searching - O(n) 
+  access - O(1) // blazzing superfast wow 
 
  Ways to insert / remove :-
  1) first way {FILO}
@@ -18,4 +18,13 @@
     removing from the beginning -> unshift -> O(n)
     due to the change in the index 
 
+*/
+
+
+/* Big O of array methods 
+ slice - on
+ splice - on 
+ sort - o(n * logn)
+ foreach/map/filter/reduce ...etc - on
+ 
 */
