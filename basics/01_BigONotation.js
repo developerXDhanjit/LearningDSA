@@ -93,7 +93,7 @@ It talks about how the runtime of an algorithm grows as the inputs grows
 
 def : We say that an algorithm O(f(n)) if the number of simple operations the computer has to do is eventually less than a constant times f(n) , as n increases 
 
-
-
+O(1) is the best as f(n) = 1 , constant => was best 
+o(n) is not good 
 
 */
