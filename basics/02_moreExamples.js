@@ -50,8 +50,43 @@ function logAtMax5(n) {
 
 /* if n grows with time , complexity increases  */
 
-logAtMax5(3)
+/* logAtMax5(3)
 logAtMax5(9)
-
+ */
 /* same complexity O(1) */
 
+
+
+/* Examples to understand space complexity  */
+
+function sumArr(arr){
+  let total = 0  ;
+  for (let i = 0 ; i < arr.length ; i++) {
+   total += arr[i]
+  }
+  return total
+}
+let arr = ["Movies" , "Animes" , "Web Series"]
+console.log(sumArr(arr));
+
+/* space complexity here is O(1) */
+
+
+/* double array  */
+
+function dblArr(arr) {
+  let newArr = []
+
+  for(let i = 0 ; i<= arr.length -1 ; i++){
+    newArr.push( 2 * arr[i])
+  }
+
+  return newArr
+  
+}
+
+let someArr = [1,2,4,6]
+
+console.log(dblArr(someArr))
+
+/* space complexity is O(n) here */
